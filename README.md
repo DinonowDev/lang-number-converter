@@ -34,6 +34,16 @@ console.log(persianToEnglish("۳۲۷E I50۲"))
 // output => "327E I502"
 ```
 
+```js
+import { splitPrice } from "lang-number-converter"
+
+console.log(splitPrice("2000000"))
+// output => "2,000,000"
+
+console.log(persianToEnglish("۳۲۷۳۲۲۳۲"))
+// output => "32,732,232"
+```
+
 ### Installing
 
 to install, use this command :
