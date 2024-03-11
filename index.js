@@ -19,7 +19,13 @@ const arabicToEnglish = (input) => {
 	);
 };
 
+const splitPrice = (input) => {
+	let inputNumber = Number(persianToEnglish(arabicToEnglish(input)));
+	return inputNumber ? inputNumber.toLocaleString() : "Wrong number";
+};
+
 module.exports = {
+	splitPrice,
 	englishToPersian,
 	englishToArabic,
 	persianToEnglish,
