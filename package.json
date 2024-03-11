@@ -1,9 +1,8 @@
 {
   "name": "lang-number-converter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "./lib/index.js",
-  "types": "./lib/index.d.ts",
   "scripts": {
     "build": "tsc"
   },
@@ -26,9 +25,5 @@
   "bugs": {
     "url": "https://github.com/DinonowDev/lang-number-converter/issues"
   },
-  "homepage": "https://github.com/DinonowDev/lang-number-converter#readme",
-  "devDependencies": {
-    "@types/node": "^20.11.25",
-    "typescript": "^5.4.2"
-  }
+  "homepage": "https://github.com/DinonowDev/lang-number-converter#readme"
 }
