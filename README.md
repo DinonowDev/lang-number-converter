@@ -40,7 +40,7 @@ import { splitPrice } from "lang-number-converter"
 console.log(splitPrice("2000000"))
 // output => "2,000,000"
 
-console.log(persianToEnglish("۳۲۷۳۲۲۳۲"))
+console.log(splitPrice("۳۲۷۳۲۲۳۲"))
 // output => "32,732,232"
 ```
 
